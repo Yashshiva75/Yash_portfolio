@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+
+    <title>YASH SHIVA</title>
+</head>
+
+<body class="font-mono dark">
+    <!--into section-->
+    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:dark:bg-slate-700 relative overflow-hidden sm:w-6">
+        <!--nav bar-->
+        <nav class="w-full fixed top-0 bg-white z-10 dark:bg-gray-700">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+
+                <!--logo-->
+                <div class="flex items-center gap-2">
+                    <img class="w-8" src="img/logo.png " alt=" ">
+                    <span class=" text-indigo-900 font-bold md:text-2xl text-lg dark:text-white">YASH_SHIVA</span>
+                </div>
+                <div class="flex flex-1 justify-center">
+                    <ul class="hidden md:flex  text-gray-600 space-x-10 dark:text-gray-100 font-bold text-sm uppercase">
+                        <li class="hover:text-gray-500">
+                            <a href="#">Home page</a>
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#About">About me</a>
+
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#services">Services</a>
+
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#portfolio">Work</a>
+
+                        </li>
+                        <li class="hover:text-gray-500">
+                            <a href="#contact">Contact</a>
+
+                        </li>
+                    </ul>
+
+                </div>
+                <!--moon-->
+                <img id="moon" src="img/moon.png" alt="" class="w-5 cursor-pointer">
+                <!--Hamburger-->
+                <div class=" md:hidden cursor-pointer space-y-2 z-20" id="hamburger">
+                    <div class="bg-black w-6 h-0.5"></div>
+                    <div class="bg-black w-6 h-0.5"></div>
+                    <div class="bg-black w-6 h-0.5"></div>
+                </div>
+                <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-3xl space-y-10 text-white text-center">
+                    <li class="hover:text-gray-500">
+                        <a href="#">Home page</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#About">About me</a>
+
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#services">Services</a>
+
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#portfolio">Work</a>
+
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#contact">Contact</a>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--intro-->
+        <!--image-->
+        <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-3/4 lg:h-5/6 object-cover" src="img/yash.png" class="w-[]" alt="man">
+
+
+        <!--circle-->
+        <div class="hidden lg:block absolute -bottom-1/4 w-big h-big -z-10 bg-indigo-900 rounded-full right-0 left-0 mx-auto"></div>
+        <!--animated text-->
+        <div class="absolute top-1/2 left-5 text-xl sm:left-10 sm:text-4xl xl:left-48 font-bold md:left-1/4 md:text-6xl lg:left-5">
+            <span class="text-gray-900">Freelancer</span>
+            <p id="text" class="text-red-700">Developer</p>
+        </div>
+        <!--text-->
+        <div class="hidden md:flex flex-col absolute top-0 gap-5 text-indigo-900 shadow-lg shadow-gray-900 rounded-md bottom-0 m-auto right-5 bg-white p-6 h-fit w-11/12 sm:w-2/3 md:w-1/2 lg:w-1/3 dark:bg-violet-500">
+            <h1 class="text-3xl text-bold">Hi, I am Yash </h1>
+            <p>With over 5 years of experience on web design Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus eligendi </p>
+            <a class="bg-indigo-900 text-xl text-white w-fit px-3 py-2 font-semibold rounded-md" href="#">Hire Me</a>
+        </div>
+    </div>
+
+    <!--about me-->
+    <div id="About" class="dark:bg-slate-700  px-10">
+        <div class="container py-40 flex gap-20 flex-col-reverse lg:flex-row items-center mx-auto">
+            <!--left-->
+            <div class="relative">
+                <img class="h-1/4 absolute top-0 left-0 -z-10" src="img/dots.png" alt="">
+                <div class="rounded-full h-full overflow-hidden">
+                    <img src="img/yash2.jpg" alt="">
+                </div>
+            </div>
+            <!--right-->
+            <div class="my-auto flex flex-col gap-3">
+                <h1 class="text-indigo-600 font-bold">About Me</h1>
+                <h1 class="text-3xl font-bold">Better Design</h1>
+                <h1 class="text-3xl font-bold">Better Experience</h1>
+                <p class="text-gray-400">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, itaque?
+                </p>
+                <img src="img/yash.png" alt="" class="md:hidden">
+                <h2 class="text-gray-500 font-medium">HTML</h2>
+                <div class="w-4/3 bg-gray-400 h-1.5 rounded-md">
+                    <div class="w-3/4 bg-indigo-400 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-500 font-medium">JAVASCRIPT</h2>
+                <div class="w-4/3 bg-gray-400 h-1.5 rounded-md">
+                    <div class="w-2/3 bg-indigo-400 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-500 font-medium">TAILWIND</h2>
+                <div class="w-4/3 bg-gray-400 h-1.5 rounded-md">
+                    <div class="w-2/3 bg-indigo-400 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-500 font-medium">REACT JS</h2>
+                <div class="w-4/3 bg-gray-400 h-1.5 rounded-md">
+                    <div class="w-3/4 bg-indigo-400 h-1.5 rounded-md"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--services-->
+    <div id="services" class="dark:bg-slate-700">
+        <div id="Services" class="container mx-auto dark:bg-slate-700">
+            <div class="flex flex-col gap-3 items-center dark:text-white">
+                <!--top-->
+                <h1 class="text-indigo-600 font-bold dark:text-white">Services</h1>
+                <h1 class="text-indigo-600 font-bold dark:text-white">What do I offer?</h1>
+                <p class="text-center text-gray-500 w-1/2 dark:text-white">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptas corrupti. Cum minima maxime aspernatur impedit consequatur, dolorum hic ullam? amet consectetur adipisicing elit. Excepturi culpa autem non
+                    assumenda et ipsam corporis dolorem neque veritatis necessitatibus.</p>
+            </div>
+            <!--bottom-->
+            <!--card-->
+            <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg  my-3 md:my-10  flex flex-col gap-3">
+                    <img class="w-10 " src="img/icon.png" alt="">
+                    <h1 class="font-medium text-lg dark:text-white">UI UX DESIGNER</h1>
+                    <P class="text-gray-500 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellendus quibusdam velit ducimus vero totam adipisci saepe? Ipsum non soluta cupiditate quibusdam corporis consectetur enim.</P>
+                    <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg my-3 md:my-10  flex flex-col gap-3">
+                    <img class="w-10 " src="img/icon.png" alt="">
+                    <h1 class="font-medium text-lg dark:text-white">UI UX DESIGNER</h1>
+                    <P class="text-gray-500 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellendus quibusdam velit ducimus vero totam adipisci saepe? Ipsum non soluta cupiditate quibusdam corporis consectetur enim.</P>
+                    <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg  my-3 md:my-10 flex flex-col gap-3">
+                    <img class="w-10 " src="img/icon.png" alt="">
+                    <h1 class="font-medium text-lg dark:text-white">UI UX DESIGNER</h1>
+                    <P class="text-gray-500 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellendus quibusdam velit ducimus vero totam adipisci saepe? Ipsum non soluta cupiditate quibusdam corporis consectetur enim.</P>
+                    <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg  my-3 md:my-10 flex flex-col gap-3">
+                    <img class="w-10 " src="img/icon.png" alt="">
+                    <h1 class="font-medium text-lg dark:text-white">UI UX DESIGNER</h1>
+                    <P class="text-gray-500 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellendus quibusdam velit ducimus vero totam adipisci saepe? Ipsum non soluta cupiditate quibusdam corporis consectetur enim.</P>
+                    <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg my-3 md:my-10 flex flex-col gap-3">
+                    <img class="w-10 " src="img/icon.png" alt="">
+                    <h1 class="font-medium text-lg dark:text-white">UI UX DESIGNER</h1>
+                    <P class="text-gray-500 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellendus quibusdam velit ducimus vero totam adipisci saepe? Ipsum non soluta cupiditate quibusdam corporis consectetur enim.</P>
+                    <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg my-3 md:my-10  flex flex-col gap-3">
+                    <img class="w-10 " src="img/icon.png" alt="">
+                    <h1 class="font-medium text-lg dark:text-white">UI UX DESIGNER</h1>
+                    <P class="text-gray-500 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repellendus quibusdam velit ducimus vero totam adipisci saepe? Ipsum non soluta cupiditate quibusdam corporis consectetur enim.</P>
+                    <a class="text-indigo-600 font-semibold text-sm" href="#">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio" class="dark:bg-gray-700">
+        <div id="portfolo" class="container mx-auto">
+            <div class="flex flex-col gap-3 items-center">
+                <!--top-->
+                <h1 class="text-indigo-600 font-bold dark:text-white">Services</h1>
+                <h1 class="text-indigo-600 font-bold dark:text-white">What do I offer?</h1>
+                <p class="text-center text-gray-500 w-1/2 dark:text-white">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, voluptas corrupti. Cum minima maxime aspernatur impedit consequatur, dolorum hic ullam? amet consectetur adipisicing elit. Excepturi culpa autem non
+                    assumenda et ipsam corporis dolorem neque veritatis necessitatibus.</p>
+            </div>
+            <!--bottom-->
+            <!--card-->
+            <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg lg:w-1/5 my-3 md:my-10  m-1">
+                    <img src="img/item.png" alt="">
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg lg:w-1/5 my-3 md:my-10   m-1">
+                    <img src="img/item.png" alt="">
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg lg:w-1/5  my-3 md:my-10  m-1">
+                    <img src="img/item.png" alt="">
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg lg:w-1/5  my-3 md:my-10  m-1">
+                    <img src="img/item.png" alt="">
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg lg:w-1/5  my-3 md:my-10  m-1">
+                    <img src="img/item.png" alt="">
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg lg:w-1/5  my-3 md:my-10  m-1">
+                    <img src="img/item.png" alt="">
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg lg:w-1/5  my-3 md:my-10  m-1">
+                    <img src="img/item.png" alt="">
+                </div>
+                <div class="w-full p-5 md:w-4/12 shadow-xl rounded-lg lg:w-1/5  my-3 md:my-10  m-1">
+                    <img src="img/item.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact" class="dark:bg-gray-700">
+        <div class="container">
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font-bold dark:text-white">Contact</h1>
+                <h1 class="text-3xl dark:text-white">Have Question</h1>
+                <p class="w-1/2 text-center text-gray-500 dark:text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur exercitationem aliquid quisquam omnis fugiat aspernatur eos odio dignissimos assumenda commodi!
+                </p>
+            </div>
+            <form action="" class="flex flex-col gap-5 items-center mt-5 p-8">
+                <input type="text" placeholder="NAme" class="p-2 ring-1 ring-indigo-400 rounded-sm md:w-1/2 dark:bg-gray-700">
+                <input type="text" placeholder="Email" class="p-2 ring-1 ring-indigo-400 rounded-sm md:w-1/2 dark:bg-gray-700">
+                <textarea cols="25" rows="10" placeholder="Message..." class="p-2 ring-1 ring-indigo-400 rounded-sm md:w-1/2 dark:bg-gray-700"></textarea>
+                <button class="w-1/2 bg-indigo-400 text-white font-medium px-3 py-2 rounded-sm cursor-pointer dark:bg-indigo-700">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!--footer-->
+    <nav class="w-full  bg-gray-600 z-10">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+
+            <!--logo-->
+            <div class="flex items-center gap-2">
+                <img class="w-8" src="img/logo.png " alt=" ">
+                <span class=" text-indigo-900 font-bold md:text-2xl text-lg dark:text-white">YASH_SHIVA</span>
+            </div>
+            <div class="flex flex-1 justify-center">
+                <p class="hidden md:block text-gray-400  font-bold underline">Made By @yashshiva</p>
+
+            </div>
+            <img id="moon" src="img/moon.png" alt="" class="hidden md:block w-5 cursor-pointer">
+            <!--Hamburger-->
+            <div class="flex gap-3">
+                <img class="w-4" src="img/facebook.png" alt="">
+                <img class="w-4" src="img/instagram.png" alt="">
+                <img class="w-4" src="img/linkedin.png" alt="">
+                <img class="w-4" src="img/twitter.png" alt="">
+            </div>
+</body>
+<script src=" app.js "></script>
+<script src="autotyping.js "></script>
+</body>
+
+</html>
