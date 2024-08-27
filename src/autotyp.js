@@ -41,7 +41,7 @@ var AutoTyping = function(e) {
         }
     }
 }]).default;
-const exampleText = ['Welcome to my portfolio', 'Iam a front end developer', 'React Js dev', 'DSA'];
+const exampleText = ['Welcome to my portfolio', 'Iam a frontend developer', 'React Js dev', 'DSA'];
 const exampleTyping = new AutoTyping('#text', exampleText, {
     typeSpeed: 50,
     deleteSpeed: 50,
@@ -49,7 +49,9 @@ const exampleTyping = new AutoTyping('#text', exampleText, {
     waitBetweenWords: 500,
 });
 exampleTyping.start()
-const other = ['M.E.R.N stack Developer', 'DSA', 'Java'];
+const other = ['M.E.R.N stack Developer', 'DSA solver', ' and',
+    'Java Developer'
+];
 const othertyp = new AutoTyping('#name', other, {
     typeSpeed: 50,
     deleteSpeed: 50,
