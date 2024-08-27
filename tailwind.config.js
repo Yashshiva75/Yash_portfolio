@@ -11,7 +11,7 @@ module.exports = {
                 "big": "40rem"
             },
             colors: {
-                "nav": "#4cc9f0",
+                "nav": "gray",
                 "section": "#80ffdb",
                 "one": "#000000",
                 "two": "#e74c3c"
