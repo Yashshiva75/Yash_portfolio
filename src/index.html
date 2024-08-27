@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
     <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <title>YASH SHIVA</title>
 </head>
@@ -20,26 +21,26 @@
                 <!--logo-->
                 <div class="flex items-center gap-2">
                     <img class="w-8" src="img/logo.png " alt=" ">
-                    <span class=" text-indigo-900 font-bold md:text-2xl text-lg dark:text-white">YASH_SHIVA</span>
+                    <span class=" text-indigo-900 font-bold md:text-2xl text-lg dark:text-white">CodeWithYash</span>
                 </div>
                 <div class="flex flex-1 justify-center">
                     <ul class="hidden md:flex  text-gray-600 space-x-10 dark:text-gray-100 font-bold text-sm uppercase">
-                        <li class="hover:text-gray-500">
+                        <li class="hover:text-amber-300 duration-500">
                             <a href="#">Home page</a>
                         </li>
-                        <li class="hover:text-gray-500">
+                        <li class="hover:text-amber-300 duration-500 ">
                             <a href="#About">About me</a>
 
                         </li>
-                        <li class="hover:text-gray-500">
+                        <li class="hover:text-amber-300 duration-500">
                             <a href="#services">Services</a>
 
                         </li>
-                        <li class="hover:text-gray-500">
+                        <li class="hover:text-amber-300 duration-500">
                             <a href="#portfolio">Work</a>
 
                         </li>
-                        <li class="hover:text-gray-500">
+                        <li class="hover:text-amber-300 duration-500">
                             <a href="#contact">Contact</a>
 
                         </li>
@@ -49,33 +50,33 @@
                 <!--moon-->
                 <img id="moon" src="img/moon.png" alt="" class="w-5 cursor-pointer">
                 <!--Hamburger-->
-                <div class=" md:hidden cursor-pointer space-y-2 z-20" id="hamburger">
-                    <div class="bg-black w-6 h-0.5"></div>
-                    <div class="bg-black w-6 h-0.5"></div>
-                    <div class="bg-black w-6 h-0.5"></div>
+                <!-- Hamburger -->
+                <!-- Hamburger -->
+                <div class="md:hidden cursor-pointer space-y-2 z-20" id="hamburger">
+                    <div class="bg-black w-6 h-0.5 transform transition-transform duration-300 ease-in-out" id="line1"></div>
+                    <div class="bg-black w-6 h-0.5 transform transition-transform duration-300 ease-in-out" id="line2"></div>
+                    <div class="bg-black w-6 h-0.5 transform transition-transform duration-300 ease-in-out" id="line3"></div>
                 </div>
-                <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-3xl space-y-10 text-white text-center">
+
+                <!-- Menu -->
+                <ul id="menu" class="hidden bg-purple-700 bg-opacity-30 backdrop-blur-md absolute left-0 top-0 w-full p-10 space-y-10 text-white text-center transition-all duration-500 ease-in-out transform -translate-y-full opacity-0">
                     <li class="hover:text-gray-500">
                         <a href="#">Home page</a>
                     </li>
                     <li class="hover:text-gray-500">
                         <a href="#About">About me</a>
-
                     </li>
                     <li class="hover:text-gray-500">
                         <a href="#services">Services</a>
-
                     </li>
                     <li class="hover:text-gray-500">
                         <a href="#portfolio">Work</a>
-
                     </li>
                     <li class="hover:text-gray-500">
                         <a href="#contact">Contact</a>
-
                     </li>
                 </ul>
-            </div>
+
         </nav>
         <!--intro-->
         <!--image-->
@@ -86,59 +87,60 @@
         <div class="hidden lg:block absolute -bottom-1/4 w-big h-big -z-10 bg-indigo-900 rounded-full right-0 left-0 mx-auto"></div>
         <!--animated text-->
         <div class="absolute top-1/2 left-5 text-xl sm:left-10 sm:text-4xl xl:left-48 font-bold md:left-1/4 md:text-6xl lg:left-5">
-            <span class="text-gray-900">Welcome to my world</span>
+            <span class="text-gray-900">Hello!!</span>
             <p id="text" class="text-red-700"></p>
         </div>
         <!--text-->
         <div class="hidden md:flex flex-col absolute top-0 gap-5 text-indigo-900 shadow-lg shadow-gray-900 rounded-md bottom-0 m-auto right-5 bg-white p-6 h-fit w-11/12 sm:w-2/3 md:w-1/2 lg:w-1/3 dark:bg-violet-500">
-            <h1 class="text-3xl text-bold">Hi, I am Yash </h1>
-            <p>With over 5 years of experience on web design Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus eligendi </p>
+            <h1 class="text-3xl font-bold">Hi, I am Yash</h1>
+            <p>With over 5 years of experience in web design, Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus eligendi.</p>
             <a class="bg-indigo-900 text-xl text-white w-fit px-3 py-2 font-semibold rounded-md" href="#">Hire Me</a>
         </div>
-    </div>
 
-    <!--about me-->
-    <div id="About" class="dark:bg-slate-700  px-10">
-        <div class="container py-40 flex gap-20 flex-col-reverse lg:flex-row items-center mx-auto">
-            <!--left-->
-            <div class="relative">
-                <img class="h-1/4 absolute top-0 left-0 -z-10" src="img/dots.png" alt="">
-                <div class="rounded-full h-full overflow-hidden">
-                    <img src="img/yash2.jpg" alt="" class="w-[350px] h-[200]">
+        </div>
+
+        <!--about me-->
+        <div id="About" class="dark:bg-slate-700  px-10">
+            <div class="container py-40 flex gap-20 flex-col-reverse lg:flex-row items-center mx-auto">
+                <!--left-->
+                <div class="relative">
+                    <img class="h-1/4 absolute top-0 left-0 -z-10" src="img/dots.png" alt="">
+                    <div class="rounded-full h-full overflow-hidden">
+                        <img src="img/yash2.jpg" alt="" class="w-[350px] h-[200]">
+                    </div>
                 </div>
-            </div>
-            <!--right-->
-            <div class="my-auto flex flex-col gap-3">
-                <h1 class="text-indigo-600 text-8xl font-bold">I am a</h1>
-                <h1 id="name" class="text-3xl text-blue-400  font-bold"></h1>
-                <h1 class="text-3xl font-bold"></h1>
-                <p class="text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, itaque?
-                </p>
-                <img src="img/yash.png" alt="" class="md:hidden">
-                <h2 class="text-gray-500 font-medium">REACT JS<img class="w-9 mx-9 inline" src="img/react js.png" alt=""></h2>
-                <div class="w-4/3 bg-black h-1.5 rounded-md">
-                    <div class="w-3/4 bg-indigo-400 h-1.5 rounded-md"></div>
-                </div>
-                <h2 class="text-gray-500 font-medium">NODE JS <img class="w-10 mx-9 inline" src="img/node.png" alt=""></h2>
-                <div class="w-4/3 bg-black h-1.5 rounded-md">
-                    <div class="w-2/3 bg-indigo-400 h-1.5 rounded-md"></div>
-                </div>
-                <h2 class="text-gray-500 font-medium">EXPRESS JS<img class="w-9 mx-9 inline" src="img/tailwind_icon.png" alt=""></h2>
-                <div class="w-4/3 bg-black h-1.5 rounded-md">
-                    <div class="w-2/3 bg-indigo-400 h-1.5 rounded-md"></div>
-                </div>
-                <h2 class="text-gray-500 font-medium">MONGO DB<img class="w-[90px] h-[80px] mx-8 inline" src="img/mongo.png" alt=""></h2>
-                <div class="w-4/3 bg-black h-1.5 rounded-md">
-                    <div class="w-3/4 bg-indigo-400 h-1.5 rounded-md"></div>
-                </div>
-                <h2 class="text-gray-500 font-medium">JAVA<img class="w-9 mx-12 inline" src="img/java.png" alt=""></h2>
-                <div class="w-4/3 bg-black h-1.5 rounded-md">
-                    <div class="w-3/4 bg-indigo-400 h-1.5 rounded-md"></div>
+                <!--right-->
+                <div class="my-auto flex flex-col gap-3">
+                    <h1 class="text-indigo-600 text-8xl font-bold">I am a</h1>
+                    <h1 id="name" class="text-3xl text-blue-400  font-bold"></h1>
+                    <h1 class="text-3xl font-bold"></h1>
+                    <p class="text-gray-400">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, itaque?
+                    </p>
+                    <img src="img/yash.png" alt="" class="md:hidden">
+                    <h2 class="text-gray-500 font-medium">REACT JS<img class="w-9 mx-9 inline" src="img/react js.png" alt=""></h2>
+                    <div class="w-4/3 bg-black h-1.5 rounded-md">
+                        <div class="w-3/4 bg-indigo-400 h-1.5 rounded-md"></div>
+                    </div>
+                    <h2 class="text-gray-500 font-medium">NODE JS <img class="w-10 mx-9 inline" src="img/node.png" alt=""></h2>
+                    <div class="w-4/3 bg-black h-1.5 rounded-md">
+                        <div class="w-2/3 bg-indigo-400 h-1.5 rounded-md"></div>
+                    </div>
+                    <h2 class="text-gray-500 font-medium">EXPRESS JS<img class="w-9 mx-9 inline" src="img/tailwind_icon.png" alt=""></h2>
+                    <div class="w-4/3 bg-black h-1.5 rounded-md">
+                        <div class="w-2/3 bg-indigo-400 h-1.5 rounded-md"></div>
+                    </div>
+                    <h2 class="text-gray-500 font-medium">MONGO DB<img class="w-[90px] h-[80px] mx-8 inline" src="img/mongo.png" alt=""></h2>
+                    <div class="w-4/3 bg-black h-1.5 rounded-md">
+                        <div class="w-3/4 bg-indigo-400 h-1.5 rounded-md"></div>
+                    </div>
+                    <h2 class="text-gray-500 font-medium">JAVA<img class="w-9 mx-12 inline" src="img/java.png" alt=""></h2>
+                    <div class="w-4/3 bg-black h-1.5 rounded-md">
+                        <div class="w-3/4 bg-indigo-400 h-1.5 rounded-md"></div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <!--services-->
     <div id="services" class="dark:bg-slate-700">

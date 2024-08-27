@@ -17,9 +17,7 @@ module.exports = {
                 "two": "#e74c3c"
             },
             fontFamily: {
-                "google": ["Nunito", "sans-serif"]
-
-
+                "google": ["Poppins", "sans-serif"]
             }
         },
     },
